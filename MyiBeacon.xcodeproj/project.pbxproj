@@ -17,12 +17,6 @@
 		D679DB181C5B4A1800492EFD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D679DB171C5B4A1800492EFD /* CoreLocation.framework */; };
 		D679DB1A1C5B516200492EFD /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = D679DB191C5B516200492EFD /* 2.wav */; };
 		D679DB1C1C5B571600492EFD /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = D679DB1B1C5B571600492EFD /* 1.wav */; };
-		D6881D391C5DE55D0075D9EC /* BeaconRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = D6881D381C5DE55D0075D9EC /* BeaconRegion.m */; };
-		D6881D3C1C5DE57F0075D9EC /* MonitoringBeaconRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = D6881D3B1C5DE57F0075D9EC /* MonitoringBeaconRegion.m */; };
-		D6881D3F1C5DE5A20075D9EC /* AdvertisingBeaconRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = D6881D3E1C5DE5A20075D9EC /* AdvertisingBeaconRegion.m */; };
-		D6881D421C5DE5B60075D9EC /* RangingBeaconRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = D6881D411C5DE5B60075D9EC /* RangingBeaconRegion.m */; };
-		D6881D451C5DE5D70075D9EC /* BeaconRegionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6881D441C5DE5D70075D9EC /* BeaconRegionCell.m */; };
-		D6881D481C5DE6210075D9EC /* BeaconRegionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6881D471C5DE6210075D9EC /* BeaconRegionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,18 +46,6 @@
 		D679DB171C5B4A1800492EFD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		D679DB191C5B516200492EFD /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
 		D679DB1B1C5B571600492EFD /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
-		D6881D371C5DE55D0075D9EC /* BeaconRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconRegion.h; sourceTree = "<group>"; };
-		D6881D381C5DE55D0075D9EC /* BeaconRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconRegion.m; sourceTree = "<group>"; };
-		D6881D3A1C5DE57F0075D9EC /* MonitoringBeaconRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitoringBeaconRegion.h; sourceTree = "<group>"; };
-		D6881D3B1C5DE57F0075D9EC /* MonitoringBeaconRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitoringBeaconRegion.m; sourceTree = "<group>"; };
-		D6881D3D1C5DE5A20075D9EC /* AdvertisingBeaconRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertisingBeaconRegion.h; sourceTree = "<group>"; };
-		D6881D3E1C5DE5A20075D9EC /* AdvertisingBeaconRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertisingBeaconRegion.m; sourceTree = "<group>"; };
-		D6881D401C5DE5B60075D9EC /* RangingBeaconRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RangingBeaconRegion.h; sourceTree = "<group>"; };
-		D6881D411C5DE5B60075D9EC /* RangingBeaconRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RangingBeaconRegion.m; sourceTree = "<group>"; };
-		D6881D431C5DE5D70075D9EC /* BeaconRegionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconRegionCell.h; sourceTree = "<group>"; };
-		D6881D441C5DE5D70075D9EC /* BeaconRegionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconRegionCell.m; sourceTree = "<group>"; };
-		D6881D461C5DE6210075D9EC /* BeaconRegionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconRegionViewController.h; sourceTree = "<group>"; };
-		D6881D471C5DE6210075D9EC /* BeaconRegionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconRegionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,18 +93,6 @@
 				D679DAF01C5B123E00492EFD /* AppDelegate.m */,
 				D679DAF21C5B123E00492EFD /* ViewController.h */,
 				D679DAF31C5B123E00492EFD /* ViewController.m */,
-				D6881D461C5DE6210075D9EC /* BeaconRegionViewController.h */,
-				D6881D471C5DE6210075D9EC /* BeaconRegionViewController.m */,
-				D6881D431C5DE5D70075D9EC /* BeaconRegionCell.h */,
-				D6881D441C5DE5D70075D9EC /* BeaconRegionCell.m */,
-				D6881D371C5DE55D0075D9EC /* BeaconRegion.h */,
-				D6881D381C5DE55D0075D9EC /* BeaconRegion.m */,
-				D6881D3A1C5DE57F0075D9EC /* MonitoringBeaconRegion.h */,
-				D6881D3B1C5DE57F0075D9EC /* MonitoringBeaconRegion.m */,
-				D6881D3D1C5DE5A20075D9EC /* AdvertisingBeaconRegion.h */,
-				D6881D3E1C5DE5A20075D9EC /* AdvertisingBeaconRegion.m */,
-				D6881D401C5DE5B60075D9EC /* RangingBeaconRegion.h */,
-				D6881D411C5DE5B60075D9EC /* RangingBeaconRegion.m */,
 				D679DAF51C5B123E00492EFD /* Main.storyboard */,
 				D679DAF81C5B123E00492EFD /* Images.xcassets */,
 				D679DAFA1C5B123E00492EFD /* LaunchScreen.xib */,
@@ -266,14 +236,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6881D3F1C5DE5A20075D9EC /* AdvertisingBeaconRegion.m in Sources */,
-				D6881D451C5DE5D70075D9EC /* BeaconRegionCell.m in Sources */,
 				D679DAF41C5B123E00492EFD /* ViewController.m in Sources */,
-				D6881D421C5DE5B60075D9EC /* RangingBeaconRegion.m in Sources */,
-				D6881D391C5DE55D0075D9EC /* BeaconRegion.m in Sources */,
 				D679DAF11C5B123E00492EFD /* AppDelegate.m in Sources */,
-				D6881D481C5DE6210075D9EC /* BeaconRegionViewController.m in Sources */,
-				D6881D3C1C5DE57F0075D9EC /* MonitoringBeaconRegion.m in Sources */,
 				D679DAEE1C5B123E00492EFD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
